@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  point_of_contact: MyString
+  phone_number: MyString
+  email: MyString
+  min_number_of_volunteers: 1
+  max_number_of_volunteers: 1
+  project_description: MyText
+  location: MyString
+  age_limit: 1
+  mission_statement: MyText
+  intensity_level: 1
+  additional_directions: MyText
+
+two:
+  name: MyString
+  point_of_contact: MyString
+  phone_number: MyString
+  email: MyString
+  min_number_of_volunteers: 1
+  max_number_of_volunteers: 1
+  project_description: MyText
+  location: MyString
+  age_limit: 1
+  mission_statement: MyText
+  intensity_level: 1
+  additional_directions: MyText

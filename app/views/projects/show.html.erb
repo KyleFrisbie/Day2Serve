@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @project.name %>
+</p>
+
+<p>
+  <strong>Point of contact:</strong>
+  <%= @project.point_of_contact %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @project.phone_number %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @project.email %>
+</p>
+
+<p>
+  <strong>Min number of volunteers:</strong>
+  <%= @project.min_number_of_volunteers %>
+</p>
+
+<p>
+  <strong>Max number of volunteers:</strong>
+  <%= @project.max_number_of_volunteers %>
+</p>
+
+<p>
+  <strong>Project description:</strong>
+  <%= @project.project_description %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @project.location %>
+</p>
+
+<p>
+  <strong>Age limit:</strong>
+  <%= @project.age_limit %>
+</p>
+
+<p>
+  <strong>Mission statement:</strong>
+  <%= @project.mission_statement %>
+</p>
+
+<p>
+  <strong>Intensity level:</strong>
+  <%= @project.intensity_level %>
+</p>
+
+<p>
+  <strong>Additional directions:</strong>
+  <%= @project.additional_directions %>
+</p>
+
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>

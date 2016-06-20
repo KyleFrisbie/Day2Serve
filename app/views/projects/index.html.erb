@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Projects</h1>
+
+<div>
+  <% @projects.each do |project| %>
+    <div>
+      <h3><%= link_to project.name, project_path(project) %></h3>
+      <p>Volunteers: <%= project.min_number_of_volunteers %>-<%= project.max_number_of_volunteers %></p>
+      <p>Minimum Age: <%= project.age_limit %></p>
+      <p>Intensity: <%= project.intensity_level %></p>
+      <p><%= project.project_description %></p>
+    </div>
+      <hr/>
+  <% end %>
+</div>
+
+<br>
+
+<%= link_to 'New Project', new_project_path %>
