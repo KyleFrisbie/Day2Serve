@@ -60,5 +60,7 @@
   <%= @project.additional_directions %>
 </p>
 
+<%= button_to 'Sign Up', new_volunteer_path, {class: 'button'}%>
+
 <%= link_to 'Edit', edit_project_path(@project) %> |
 <%= link_to 'Back', projects_path %>
